@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context=".AboutActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        app:cardCornerRadius="10dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/img_building" />
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama Sekolah: SMK N 2 Yogyakarta"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tahun Berdiri: 1919"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="SMK Negeri 2 Yogyakarta beralamat di jalan A.M. Sangaji 47 Yogyakarta, lebih dikenal dengan nama STM Jetis (STM 1 Yogyakarta). SMK Negeri 2 Yogyakarta merupakan salah satu sekolah menengah tertua di Indonesia dan cukup punya nama  di dunia industri maupun pemerintahan.  Banyak lulusannya tersebar di berbagai wilayah Indonesia, mampu memimpin  di bidang industri maupun pemerintahan.
+Gedungnya anggun dan berwibawa, dibangun pada tahun 1919. Pada masa penjajahan Belanda gedung ini dipakai sebagai sebagai gedung sekolah PJS (Princess Juliana School). SMK N 2 Yogyakarta berdiri pada tahun 1919 dengan nama Princess Juliana school (PJS), melihat dari namanya adalah nama seorang perempuan keturunan bangsawan Belanda (princess Juliana) memberikan bukti bahwa pada masa itu telah diaplikasikan pendidikan  berwawasan gender walaupun kenyataannya masa itu Indonesia dalam masa penjajahan." />
+
+</LinearLayout>

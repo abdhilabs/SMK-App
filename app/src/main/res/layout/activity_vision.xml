@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VisionActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv_vision"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="16dp"
+            app:cardCornerRadius="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Visi"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Menjadi Sekolah Menengah Kejuruan yang berkarakter, berbudaya, berwawasan lingkungan, menghasilkan insan yang bertaqwa, profesional, mampu berwirausaha dan berdaya saing global" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv_mission"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cv_vision"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="16dp"
+            app:cardCornerRadius="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Misi"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="a. Menyelenggarakan kegiatan pendampingan keagamaan dalam rangka peningkatan ketaqwaan.
+\nb. Menyelenggarakan pembiasaan beribadah sesuai agama masing-masing.
+\nc. Menyelenggarakan pembelajaran dengan pendekatan teknologi informasi dan komunikasi.
+\nd. Mengembangkan kurikulum, metodologi pembelajaran dan sistem penilaian berbasis kompetensi sesuai dengan kebutuhan industri global.
+\ne. Menyelenggarakan sertifikasi kompetensi bagi siswa.
+\nf. Menyelenggarakan kegiatan kokurikuler dan ekstrakurikuler agar peserta didik memiliki multiskills yang mampu mengembangkan kecakapan hidup (life skills), berakhlak mulia, kreatif dan inovatif.
+\ng. Meningkatkan kualitas dan kuantitas pendidik dan tenaga kependidikan yang memenuhi kualifikasi profesional, sertifikasi kompetensi, kreatif, inovatif, berkarakter dan berbudaya.
+\nh. Meningkatkan fasilitas dan lingkungan belajar yang aman, nyaman, memenuhi standar nasional pendidikan, standar kerja industri secara kualitas dan kuantitas.
+\ni. Menerapkan dan mengembangkan pendidikan yang ramah lingkungan, ramah anak dan responsif gender dalam suasana yang harmonis.
+\nj. Membangun kemitraan (link and match) dengan lembaga yang relevan dalam dan luar negeri.
+\nk. Mengembangkan sekolah unggulan berbasis literasi numerik, digital, finansial, sains, bahasa.
+\nl. Mewujudkan sekolah Adiwiyata." />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+</ScrollView>
