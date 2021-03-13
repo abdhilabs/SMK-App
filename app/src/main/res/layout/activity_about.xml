@@ -39,6 +39,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
+        android:justificationMode="inter_word"
         android:text="SMK Negeri 2 Yogyakarta beralamat di jalan A.M. Sangaji 47 Yogyakarta, lebih dikenal dengan nama STM Jetis (STM 1 Yogyakarta). SMK Negeri 2 Yogyakarta merupakan salah satu sekolah menengah tertua di Indonesia dan cukup punya nama  di dunia industri maupun pemerintahan.  Banyak lulusannya tersebar di berbagai wilayah Indonesia, mampu memimpin  di bidang industri maupun pemerintahan.
 Gedungnya anggun dan berwibawa, dibangun pada tahun 1919. Pada masa penjajahan Belanda gedung ini dipakai sebagai sebagai gedung sekolah PJS (Princess Juliana School). SMK N 2 Yogyakarta berdiri pada tahun 1919 dengan nama Princess Juliana school (PJS), melihat dari namanya adalah nama seorang perempuan keturunan bangsawan Belanda (princess Juliana) memberikan bukti bahwa pada masa itu telah diaplikasikan pendidikan  berwawasan gender walaupun kenyataannya masa itu Indonesia dalam masa penjajahan." />
 
