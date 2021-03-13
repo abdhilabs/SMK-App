@@ -17,15 +17,17 @@ class MainActivity : AppCompatActivity() {
         val btnOrganization = findViewById<Button>(R.id.btn_organization)
         val btnLocation = findViewById<Button>(R.id.btn_location)
 
-
         btnAbout.setOnClickListener {
-            startActivity(Intent(this, AboutActivity::class.java))
+            val intent = Intent(this, AboutActivity::class.java)
+            startActivity(intent)
         }
         btnVision.setOnClickListener {
-            startActivity(Intent(this, VisionActivity::class.java))
+            val intent = Intent(this, VisionActivity::class.java)
+            startActivity(intent)
         }
         btnOrganization.setOnClickListener {
-            startActivity(Intent(this, OrganizationActivity::class.java))
+            val intent = Intent(this, OrganizationActivity::class.java)
+            startActivity(intent)
         }
         btnLocation.setOnClickListener {
             val intent = Intent(
